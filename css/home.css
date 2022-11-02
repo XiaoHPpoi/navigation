@@ -1,0 +1,16 @@
+html,body{
+	margin: 0;
+    padding: 0;
+    background: #f9f9f9 !important;
+}
+#home{
+	/*div浮动*/
+	display: -webkit-flex;
+	display: flex;
+}
+#fnav{
+	width: 100px;
+}
+.sidebar-logo{
+	height: 74px;
+}

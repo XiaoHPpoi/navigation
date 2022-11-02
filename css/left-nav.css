@@ -1,0 +1,15 @@
+
+.left-nav{
+	border: 2px solid skyblue;
+	background: #fff;
+	/*粘性定位 需要指定 top, right, bottom 或 left 四个阈值其中之一*/
+	position: sticky;
+	top: 74px;
+	border-radius: 0 10px 10px 0;
+	overflow:hidden;/*溢出隐藏 放在a直角遮挡圆角*/
+	opacity:0.7;/*背景透明度*/	
+}
+.left-nav:hover{
+	opacity:1;
+}
+.left-nav ul li a:hover,.left-nav ul li a:active{background: #0069D9;color: #fff;}

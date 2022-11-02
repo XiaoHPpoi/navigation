@@ -1,0 +1,35 @@
+.top-nav{
+	background: skyblue;
+	height: 80px;
+	margin-bottom: 20px;
+	/*flex布局居中*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#search-text{
+	/*圆角*/
+	border-radius: 10px 10px 10px 10px;
+	/*消去边框*/
+	outline:none;
+	border: none;
+	padding:0 10px;
+	height: 40px;
+	width:100%;
+}
+.search-form{
+	width: 300px;
+	position:relative;
+}
+.search-form button{
+	/*子绝父相*/
+	position:absolute;
+	background: #FFFFFF;
+	/*搜索框位置*/
+	top:9px;
+	right: 0;
+	border:none;
+	outline:none;
+}
+

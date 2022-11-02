@@ -1,0 +1,29 @@
+#content{
+	padding: 0 20px 0;
+	width: 100%;
+}
+.card, .block {
+    background: #fff;
+    border-width: 0;
+    margin-bottom: 1rem;
+}
+.card:hover{
+	/*div浮动*/
+	transform: translate(0px,-10px);
+	transition: 0.5s;
+	/*div阴影*/
+	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.1)
+}
+.text-xs {
+    font-size: .75rem!important;
+}
+.text-muted {
+    color: #6c757d!important;
+}
+.text-lg {
+    font-size: 1.125rem!important;
+}
+.text-gray {
+    color: #555;
+}
+
